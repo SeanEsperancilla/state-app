@@ -110,6 +110,25 @@ body {
   box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
 }
 
+.logo-image {
+  width: 250%;
+  height: 250%;
+  object-fit: contain;
+}
+
+.logo-box {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; /* add this */
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
 
 @media (max-width: 768px) {
   .title-section h1 {

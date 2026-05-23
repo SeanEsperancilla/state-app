@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./InformationForm.css";
+import schoolLogo from "./assets/SCA_Univ.png"
 
 const EnrollmentForm: React.FC = () => {
   return (
@@ -10,9 +11,15 @@ const EnrollmentForm: React.FC = () => {
         <div className="row g-0 header-section">
 
           <div className="col-md-3 logo-section d-flex flex-column justify-content-center align-items-center">
+            
             <div className="logo-box mb-3">
-              <span>SCA</span>
+              <img
+                src={schoolLogo}
+                alt="School Logo"
+                className="logo-image"
+              />
             </div>
+
             <h4 className="school-name">SCA University</h4>
           </div>
 
