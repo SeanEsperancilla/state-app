@@ -11,7 +11,7 @@ const EnrollmentForm: React.FC = () => {
         <div className="row g-0 header-section">
 
           <div className="col-md-3 logo-section d-flex flex-column justify-content-center align-items-center">
-            
+
             <div className="logo-box mb-3">
               <img
                 src={schoolLogo}
@@ -32,95 +32,166 @@ const EnrollmentForm: React.FC = () => {
         <div className="form-body p-4">
 
           <form>
-            <div className="row mb-4 align-items-center">
-              <label className="col-md-3 form-label">Full Name</label>
+            <div className="row mb-4 align-items-start">
+
+              <label className="col-md-3 form-label">
+                Full Name
+              </label>
 
               <div className="col-md-4">
-                <input
-                  type="text"
-                  className="form-control custom-input"
-                  placeholder="First Name"
-                />
+                <div className="d-flex flex-column">
+
+                  <input
+                    type="text"
+                    className="form-control custom-input"
+                  />
+
+                  <label className="mt-1 text-start small">
+                    First Name
+                  </label>
+
+                </div>
               </div>
 
               <div className="col-md-5">
-                <input
-                  type="text"
-                  className="form-control custom-input"
-                  placeholder="Last Name"
-                />
+                <div className="d-flex flex-column">
+
+                  <input
+                    type="text"
+                    className="form-control custom-input"
+                  />
+
+                  <label className="mt-1 text-start small">
+                    Last Name
+                  </label>
+
+                </div>
               </div>
             </div>
 
-            <div className="row mb-4">
-              <label className="col-md-3 form-label">Address</label>
+            <div className="row mb-4 align-items-start">
+              <label className="col-md-3 form-label">
+                Address
+              </label>
 
               <div className="col-md-9">
-                <input
-                  type="text"
-                  className="form-control custom-input mb-3"
-                  placeholder="Street Address"
-                />
+
+                <div className="d-flex flex-column mb-3">
+                  <input
+                    type="text"
+                    className="form-control custom-input"
+                  />
+
+                  <label className="mt-1 text-start small">
+                    Street Address
+                  </label>
+                </div>
 
                 <div className="row">
+
                   <div className="col-md-6 mb-3">
-                    <input
-                      type="text"
-                      className="form-control custom-input"
-                      placeholder="City"
-                    />
+                    <div className="d-flex flex-column">
+
+                      <input
+                        type="text"
+                        className="form-control custom-input"
+                      />
+
+                      <label className="mt-1 text-start small">
+                        City
+                      </label>
+
+                    </div>
                   </div>
 
                   <div className="col-md-6">
-                    <input
-                      type="text"
-                      className="form-control custom-input"
-                      placeholder="State / Province"
-                    />
+                    <div className="d-flex flex-column">
+
+                      <input
+                        type="text"
+                        className="form-control custom-input"
+                      />
+
+                      <label className="mt-1 text-start small">
+                        State / Province
+                      </label>
+
+                    </div>
                   </div>
+
                 </div>
               </div>
             </div>
 
-            <div className="row mb-4 align-items-center">
-              <label className="col-md-3 form-label">Birth Date</label>
+
+            <div className="row mb-4 align-items-start">
+              <label className="col-md-3 form-label">
+                Birth Date
+              </label>
 
               <div className="col-md-3">
-                <input
-                  type="text"
-                  className="form-control custom-input"
-                  placeholder="Date"
-                />
+                <div className="d-flex flex-column">
+
+                  <input
+                    type="text"
+                    className="form-control custom-input"
+                  />
+
+                  <label className="mt-1 text-start small">
+                    Date
+                  </label>
+
+                </div>
               </div>
 
               <div className="col-md-3">
-                <input
-                  type="text"
-                  className="form-control custom-input"
-                  placeholder="Month"
-                />
+                <div className="d-flex flex-column">
+
+                  <input
+                    type="text"
+                    className="form-control custom-input"
+                  />
+
+                  <label className="mt-1 text-start small">
+                    Month
+                  </label>
+
+                </div>
               </div>
 
               <div className="col-md-3">
-                <input
-                  type="text"
-                  className="form-control custom-input"
-                  placeholder="Year"
-                />
+                <div className="d-flex flex-column">
+
+                  <input
+                    type="text"
+                    className="form-control custom-input"
+                  />
+
+                  <label className="mt-1 text-start small">
+                    Year
+                  </label>
+
+                </div>
               </div>
             </div>
 
-            <div className="row mb-4 align-items-center">
-              <label className="col-md-3 form-label">Gender</label>
+
+            <div className="row mb-4 align-items-start">
+              <label className="col-md-3 form-label">
+                Gender
+              </label>
 
               <div className="col-md-9 d-flex gap-4 gender-group">
+
                 <div className="form-check">
                   <input
                     type="radio"
                     className="form-check-input"
                     name="gender"
                   />
-                  <label className="form-check-label">Male</label>
+                  <label className="form-check-label">
+                    Male
+                  </label>
                 </div>
 
                 <div className="form-check">
@@ -129,7 +200,9 @@ const EnrollmentForm: React.FC = () => {
                     className="form-check-input"
                     name="gender"
                   />
-                  <label className="form-check-label">Female</label>
+                  <label className="form-check-label">
+                    Female
+                  </label>
                 </div>
 
                 <div className="form-check">
@@ -138,52 +211,79 @@ const EnrollmentForm: React.FC = () => {
                     className="form-check-input"
                     name="gender"
                   />
-                  <label className="form-check-label">Other</label>
+                  <label className="form-check-label">
+                    Other
+                  </label>
                 </div>
+
               </div>
             </div>
 
-            <div className="row mb-4 align-items-center">
+
+            <div className="row mb-4 align-items-start">
               <label className="col-md-3 form-label">
                 Student Number
               </label>
 
               <div className="col-md-9">
-                <input
-                  type="text"
-                  className="form-control custom-input"
-                  placeholder="Student ID"
-                />
+                <div className="d-flex flex-column">
+
+                  <input
+                    type="text"
+                    className="form-control custom-input"
+                  />
+
+                  <label className="mt-1 text-start small">
+                    Student ID
+                  </label>
+
+                </div>
               </div>
             </div>
 
-            <div className="row mb-4 align-items-center">
+
+            <div className="row mb-4 align-items-start">
               <label className="col-md-3 form-label">
                 Student Email
               </label>
 
               <div className="col-md-9">
-                <input
-                  type="email"
-                  className="form-control custom-input"
-                  placeholder="example@email.com"
-                />
+                <div className="d-flex flex-column">
+
+                  <input
+                    type="email"
+                    className="form-control custom-input"
+                  />
+
+                  <label className="mt-1 text-start small">
+                    example@gmail.com
+                  </label>
+
+                </div>
               </div>
             </div>
 
-            <div className="row mb-4">
+
+            <div className="row mb-4 align-items-start">
               <label className="col-md-3 form-label">
                 Additional Comments
               </label>
 
               <div className="col-md-9">
-                <textarea
-                  className="form-control custom-input"
-                  rows={5}
-                  placeholder="Write your comments here..."
-                ></textarea>
+                <div className="d-flex flex-column">
+
+                  <textarea
+                    className="form-control custom-input"
+                    rows={5}
+                  ></textarea>
+
+                  <label className="mt-1 text-start small">
+                  </label>
+
+                </div>
               </div>
             </div>
+
 
             <div className="text-end">
               <button className="btn submit-btn px-5 py-2">
@@ -191,7 +291,6 @@ const EnrollmentForm: React.FC = () => {
               </button>
             </div>
           </form>
-
         </div>
       </div>
     </div>

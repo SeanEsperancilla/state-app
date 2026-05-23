@@ -129,6 +129,11 @@ body {
   backdrop-filter: blur(10px);
 }
 
+.small {
+  font-size: 13px;
+  color: #64748b;
+}
+
 
 @media (max-width: 768px) {
   .title-section h1 {
