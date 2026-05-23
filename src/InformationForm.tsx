@@ -283,13 +283,6 @@ const EnrollmentForm: React.FC = () => {
                 </div>
               </div>
             </div>
-
-
-            <div className="text-end">
-              <button className="btn submit-btn px-5 py-2">
-                Submit Form
-              </button>
-            </div>
           </form>
         </div>
       </div>
