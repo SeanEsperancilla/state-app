@@ -45,7 +45,6 @@ const EnrollmentForm: React.FC = () => {
               </div>
             </div>
 
-            {/* Address */}
             <div className="row mb-4">
               <label className="col-md-3 form-label">Address</label>
 
@@ -76,7 +75,6 @@ const EnrollmentForm: React.FC = () => {
               </div>
             </div>
 
-            {/* Birth Date */}
             <div className="row mb-4 align-items-center">
               <label className="col-md-3 form-label">Birth Date</label>
 
@@ -105,7 +103,6 @@ const EnrollmentForm: React.FC = () => {
               </div>
             </div>
 
-            {/* Gender */}
             <div className="row mb-4 align-items-center">
               <label className="col-md-3 form-label">Gender</label>
 
@@ -139,7 +136,6 @@ const EnrollmentForm: React.FC = () => {
               </div>
             </div>
 
-            {/* Student Number */}
             <div className="row mb-4 align-items-center">
               <label className="col-md-3 form-label">
                 Student Number
@@ -154,7 +150,6 @@ const EnrollmentForm: React.FC = () => {
               </div>
             </div>
 
-            {/* Email */}
             <div className="row mb-4 align-items-center">
               <label className="col-md-3 form-label">
                 Student Email
@@ -169,7 +164,6 @@ const EnrollmentForm: React.FC = () => {
               </div>
             </div>
 
-            {/* Comments */}
             <div className="row mb-4">
               <label className="col-md-3 form-label">
                 Additional Comments
@@ -184,7 +178,6 @@ const EnrollmentForm: React.FC = () => {
               </div>
             </div>
 
-            {/* Submit */}
             <div className="text-end">
               <button className="btn submit-btn px-5 py-2">
                 Submit Form
