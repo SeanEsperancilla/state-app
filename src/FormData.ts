@@ -1,5 +1,5 @@
 
-export type FormData = {
-    name: string;
-    email: string;
-}
+// export type FormData = {
+//     name: string;
+//     email: string;
+// }
