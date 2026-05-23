@@ -212,7 +212,7 @@ const EnrollmentForm: React.FC = () => {
                     name="gender"
                   />
                   <label className="form-check-label">
-                    Other
+                    N/A
                   </label>
                 </div>
 
@@ -234,7 +234,7 @@ const EnrollmentForm: React.FC = () => {
                   />
 
                   <label className="mt-1 text-start small">
-                    Student ID
+                    Phone Number
                   </label>
 
                 </div>
